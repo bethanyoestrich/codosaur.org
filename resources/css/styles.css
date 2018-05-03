@@ -1,0 +1,114 @@
+/*------------------------------*/
+/*-------colors-----------------*/
+/*------------------------------*/
+
+/*------------------------------*/
+/*-------basic setup------------*/
+/*------------------------------*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Montserrat', 'Arial', sans-serif; 
+    font-weight: 300; 
+    font-size: 20px; 
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------------*/
+/*-------header------------*/
+/*------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(243, 156, 18, 0.28), rgba(243, 156, 18, 0.28)),url(hello-i-m-nik-606853-unsplash.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    background-attachment: fixed;
+}
+.dino-text-box{
+    position: absolute;
+    width: 1140px; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.main-navigation{
+    float:right; 
+    list-style: none;
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.main-navigation li a:link,
+.main-navigation li a:visited{
+    color:#fff;
+    text-decoration:none;
+    font-size:90%;
+    border-bottom: 2px, solid, transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-navigation li a:hover,
+.main-navigation li a:active{
+    border-bottom: 2px solid #1abc9c;
+}
+
+/*------------------------------*/
+/*------Reusable------------*/
+/*------------------------------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section {
+    padding: 80px 0; 
+}
+
+.box {
+    padding: 1%;
+}
+
+/*------------------------------*/
+/*------where why how   ------------*/
+/*------------------------------*/
+.where{
+    float:left;
+    display:block;
+    width:33%;
+}
+
+/*------------------------------*/
+/*-------headings------------*/
+/*------------------------------*/
+
+h1{
+    font-weight:300; 
+    margin-top:0; 
+    margin-bottom: 20px; 
+    color: #fff; 
+    font-size:240%;  
+}
+
+h2{
+    font-weight:100;
+    border-bottom: 2px solid #1abc9c;
+    text-transform: lowercase;
+    margin-bottom: 20px
+}
+
+p{
+    font-size:90%;
+    line-height: 180%;
+}

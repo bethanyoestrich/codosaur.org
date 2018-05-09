@@ -73,21 +73,89 @@ header{
     margin: 0 auto; 
 }
 
-section {
+.section {
     padding: 80px 0; 
 }
 
 .box {
     padding: 1%;
 }
+.icon-large{
+    font-size:300%;
+}
 
 /*------------------------------*/
 /*------where why how   ------------*/
 /*------------------------------*/
+.where-what-hope{
+    background-color:#fff;
+    padding:30px;
+    display:inline-block;
+}
+
 .where{
     float:left;
     display:block;
-    width:33%;
+    width: 33%;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+/*-------------------------------*/
+/*-------footer------------------*/
+/*-------------------------------*/
+footer{
+    background-color:#9daaa7;
+    padding:10px;
+    margin:50px 0;
+    color:#fff;
+    width: cover;
+    height:200px;
+}
+.connect{
+    width:100%;
+    text-align: center;
+    font-size:90%;
+}
+
+.made-by{
+    width:100%; 
+    text-align: center;
+    font-size:40%;
+}
+
+.li{
+    list-style:none;
+    padding-right: 10px;
+}
+
+.social-icons {
+    font-size:60%;
+    list-style:none;
+}
+
+.social-icons li a:link, 
+.social-icons li a:visited{
+    color:#fff;   
+}
+
+.twitter-icon,
+.github-icon, 
+.linkedin-icon{
+    transition:color 0.2s;
+}
+.twitter-icon:hover{
+    color:#55acee;
+}
+.linkedin-icon:hover{
+    color:#007bb5;
+}
+.github-icon:hover{
+    color:#000;
+}
+
+.icon-large{
+   margin-right: 10px;
 }
 
 /*------------------------------*/

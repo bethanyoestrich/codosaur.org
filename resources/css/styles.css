@@ -26,7 +26,7 @@ html{
 /*------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(243, 156, 18, 0.28), rgba(243, 156, 18, 0.28)),url(hello-i-m-nik-606853-unsplash.jpg); 
+    background-image: linear-gradient(rgba(243, 156, 18, 0.80), rgba(243, 156, 18, 0.28)), url(trextoy.jpg); 
     background-size: cover; 
     background-position: center; 
     height: 100vh; 

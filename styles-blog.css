@@ -46,7 +46,7 @@ html{
 /*------body-----*/
 body{
    
-    background-image: linear-gradient(rgba(243, 156, 18, 0.80), rgba(243, 156, 18, 0.28)), url(resources/img/dinotoy.jpg);
+    background-image: linear-gradient(rgba(243, 156, 18, 0.80), rgba(243, 156, 18, 0.28)), url(resources/img/resources/img/dinotoy.jpg);
     background-size: cover;
     background-position:center;
     height:100vh;

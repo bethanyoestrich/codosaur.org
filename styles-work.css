@@ -54,3 +54,23 @@ header{
     left:50%;
     transform: translate(-50%, -50%);
 }
+
+/*----------pictures---------------*/
+.portfolio-highlights{
+    display: inline-block; 
+    text-align: center; 
+    margin:20px; 
+}
+.portfolio-profile{
+    float:left;
+    display: block; 
+    width: 30%; 
+    margin: 5px; 
+    padding:5px; 
+}
+.website-pic{
+   display: block; 
+    width: 80%; 
+    margin:20px; 
+    
+}
